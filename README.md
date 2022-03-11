@@ -2,6 +2,10 @@
 
 ## Overview
 
+<p align="center">
+  <img src="https://github.com/yuxuan-lou/ColossalAI-DeepNet/blob/main/IMG/overview.png" width="800">
+</p>
+
 This is the re-implementation of model DeepNet from paper [DeepNet: Scaling Transformers to 1,000 Layers](https://arxiv.org/pdf/2203.00555.pdf).
 
 DeepNet can scale transformer models to 1000 layers by applying DeepNorm. This Colossal-AI based implementation support data parallelism, pipeline parallelism and 1D tensor parallelism for training.
